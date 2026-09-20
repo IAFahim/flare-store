@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Black flare pant">
+  <rect width="800" height="1000" fill="#efeae3"/>
+  <ellipse cx="400" cy="906" rx="245" ry="26" fill="#e0d6c8"/>
+  <path d="M296 186 L504 186 C510 320 506 400 498 470 C520 600 544 748 560 852 Q563 880 534 880 L450 880 Q426 880 424 852 L400 476 L376 852 Q374 880 350 880 L266 880 Q237 880 240 852 C256 748 280 600 302 470 C294 400 290 320 296 186 Z" fill="#26262a"/>
+  <rect x="292" y="150" width="216" height="36" rx="12" fill="#1a1a1d"/>
+  <path d="M400 198 L400 336" stroke="#141417" stroke-width="4" stroke-linecap="round"/>
+  <path d="M330 206 L470 206" stroke="#141417" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <text x="400" y="952" font-family="Georgia, serif" font-size="26" fill="#8a8175" text-anchor="middle" letter-spacing="8">BLACK</text>
+</svg>

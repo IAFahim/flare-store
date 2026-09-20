@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Sand relaxed tee">
+  <rect width="800" height="1000" fill="#ece7df"/>
+  <ellipse cx="400" cy="840" rx="240" ry="24" fill="#ddd4c4"/>
+  <path d="M318 240 L240 330 Q228 344 238 358 L286 416 Q296 428 310 420 L330 406 L330 780 Q330 806 356 806 L444 806 Q470 806 470 780 L470 406 L490 420 Q504 428 514 416 L562 358 Q572 344 560 330 L482 240 Q470 226 452 228 C432 246 368 246 348 228 Q330 226 318 240 Z" fill="#d9c8ae"/>
+  <path d="M348 228 C368 246 432 246 452 228 C446 268 354 268 348 228 Z" fill="#c4ae8e"/>
+  <path d="M356 780 L444 780" stroke="#c4ae8e" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <text x="400" y="900" font-family="Georgia, serif" font-size="26" fill="#8a8175" text-anchor="middle" letter-spacing="8">SAND</text>
+</svg>

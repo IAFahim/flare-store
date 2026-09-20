@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Oat ribbed knit midi skirt">
+  <rect width="800" height="1000" fill="#efeae4"/>
+  <ellipse cx="400" cy="850" rx="240" ry="22" fill="#ded4c6"/>
+  <path d="M310 230 L490 230 L492 300 L540 760 Q544 788 516 788 L284 788 Q256 788 260 760 L308 300 Z" fill="#cbb59a"/>
+  <rect x="310" y="230" width="180" height="36" rx="8" fill="#b29a7c"/>
+  <path d="M330 300 L318 760 M370 300 L364 764 M410 300 L410 764 M450 300 L456 764 M490 300 L502 760" stroke="#b29a7c" stroke-width="4" opacity="0.45"/>
+  <text x="400" y="910" font-family="Georgia, serif" font-size="26" fill="#96826a" text-anchor="middle" letter-spacing="8">OAT</text>
+</svg>
