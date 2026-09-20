@@ -2,8 +2,21 @@ import { sequence } from '@sveltejs/kit/hooks';
 import type { Handle } from '@sveltejs/kit';
 import { verifyAdminCookie } from '$lib/server/admin/auth';
 import { registerDefaultListeners } from '$lib/server/orders/events';
+import { withDb } from '$lib/server/db';
 
 registerDefaultListeners();
+
+const database: Handle = async ({ event, resolve }) => {
+	const hyperdrive = event.platform?.env?.HYPERDRIVE;
+	if (!hyperdrive) return resolve(event);
+	return withDb(hyperdrive.connectionString, async (done) => {
+		try {
+			return await resolve(event);
+		} finally {
+			event.platform?.ctx.waitUntil(done());
+		}
+	});
+};
 
 const adminSession: Handle = async ({ event, resolve }) => {
 	event.locals.isAdmin = await verifyAdminCookie(event.cookies.get('flare_admin'));
@@ -21,4 +34,4 @@ const headers: Handle = async ({ event, resolve }) => {
 	return response;
 };
 
-export const handle = sequence(adminSession, headers);
+export const handle = sequence(database, adminSession, headers);
